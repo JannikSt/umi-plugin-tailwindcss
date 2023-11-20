@@ -7,11 +7,11 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 
 var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs);
 
-const tailwindcssContent = `/* purgecss start ignore */
+const tailwindcssContent = `/*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* purgecss end ignore */
+/*! purgecss end ignore */
 `;
 const tailwindConfigJS = `
 /** @type {import('tailwindcss').Config} */ 
