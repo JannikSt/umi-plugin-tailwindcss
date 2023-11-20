@@ -1,8 +1,8 @@
-export const tailwindcssContent = `/* purgecss start ignore */
+export const tailwindcssContent = `/*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* purgecss end ignore */
+/*! purgecss end ignore */
 `;
 
 export const tailwindConfigJS = `
